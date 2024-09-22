@@ -10,6 +10,15 @@
         display: flex;
         justify-content: space-around;
 
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+
+        .button {
+            margin-top: 24px;
+        }
+
         &__item {
             text-align: center;
             padding: 60px 44px 44px;
@@ -38,6 +47,7 @@
         }
         p {
             text-align: center;
+            
         }
 
 }
